@@ -1,7 +1,7 @@
-package observerPattern;
+package observerPattern.sourceCode;
 
 public interface Subject {
-    public void rejisterObserver(Observer observer);
+    public void registerObserver(Observer observer);
 
     public void removerObserver(Observer observer);
 

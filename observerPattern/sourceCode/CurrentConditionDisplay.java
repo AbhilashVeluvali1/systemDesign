@@ -1,4 +1,4 @@
-package observerPattern;
+package observerPattern.sourceCode;
 
 public class CurrentConditionDisplay {
 }

@@ -1,4 +1,4 @@
-package observerPattern;
+package observerPattern.sourceCode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class WheatherData implements Subject {
         this.observers = new ArrayList<Observer>();
     }
 
-    public void rejisterObserver(Observer observer){
+    public void registerObserver(Observer observer){
         observers.add(observer);
     }
     public void removerObserver(Observer observer) {
