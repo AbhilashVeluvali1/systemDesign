@@ -1,4 +1,4 @@
-package decoratorPattern;
+package decoratorPattern.starBuzz;
 
 public class Soy extends CondimentDecorator {
     public Soy(Beverage beverage) {

@@ -1,4 +1,4 @@
-package decoratorPattern;
+package decoratorPattern.starBuzz;
 
 public class Espresso extends Beverage {
     public Espresso() {

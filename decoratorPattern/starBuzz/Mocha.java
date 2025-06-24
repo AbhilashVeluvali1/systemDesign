@@ -1,4 +1,4 @@
-package decoratorPattern;
+package decoratorPattern.starBuzz;
 
 public class Mocha extends CondimentDecorator {
 
@@ -8,9 +8,15 @@ public class Mocha extends CondimentDecorator {
 
     @Override
     public double cost() {
-        return beverage.cost() + 0.10;
+        if(getSize().equals(Size.TALL))
+            return beverage.cost() + 0.10;
+        else if(getSize().equals(Size.VENTI))
+            return beverage.cost() + 0.20;
+        else
+            return beverage.cost() + 0.30;
     }
     public String getDescription() {
         return beverage.getDescription() + ", Mocha";
     }
+
 }
